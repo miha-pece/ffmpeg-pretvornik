@@ -60,7 +60,7 @@ function usage {
 	echo "   #  frames                                  #"
 	echo "   #                                          #"
 	echo "   #  You can use one or more presets         #"
-	echo "   #  simultaneously,                         #"
+	echo "   #  simultaneously                          #"
 	echo "   ############################################"
 	echo 
 	tput sgr0 # Reseting colors
