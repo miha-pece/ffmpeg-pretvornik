@@ -187,7 +187,7 @@ fi
 ####                      Menu options                       ####
 #################################################################
 
-# Batch, test mode or cobining two files
+# Batch or test mode
 echo ""
 echo "  Choose (b)atch mode for encoding 1 or many files or"
 echo "  (t)est mode for encoding only short segment of clips:"
