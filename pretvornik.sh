@@ -357,7 +357,7 @@ function encode_web {
 	local -a filter
 	local -a tmp_array
 	local tmp_string
-	local -a audio_filter
+	local -a audio_filter=""
 	
 	# ffmpeg filters, order is important!
 	# (deinterlace -> denoise -> scaling is usually best sequence)
@@ -484,7 +484,7 @@ function encode_dvd {
 	local -a tmp_array
 	local tmp_string
 	local tmp_file
-	local -a audio_filter
+	local -a audio_filter=""
 	
 	if [ $noise -eq 1 ]; then 
 		tmp_array+=("hqdn3d=10.0:3.0:10.0:4.5") # Derfoult value: "hqdn3d=10.0:3.0:10.0:4.5": remove noise in image
